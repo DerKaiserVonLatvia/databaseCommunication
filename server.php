@@ -5,7 +5,7 @@ define("DB_HOST", "localhost");
 define("DB_NAME", "jauniesu_centrs");
 define("DB_CHARSET", "utf8");
 define("DB_USER", "root");
-define("DB_PASSWORD", "arioliev3");
+define("DB_PASSWORD", "password");
 
 // (B) CONNECT TO DATABASE
 
