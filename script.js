@@ -2,7 +2,7 @@
 function FETCHDB() {
   var xmlhttp = new XMLHttpRequest();
 
-  xmlhttp.open("POST", "server.php", true);
+  xmlhttp.open("POST", "https://magical-starlight-de7eaf.netlify.app/server.php", true);
   xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
   xmlhttp.onreadystatechange = function () {
     if (this.readyState === 4 || this.status === 200) {
@@ -47,7 +47,7 @@ function WRITEDB(){
   payloadString=payloadString.replace(DT_regex, ':');
   console.log(payloadString);
   var xmlhttp = new XMLHttpRequest();
-  xmlhttp.open("POST", "server.php", true);
+  xmlhttp.open("POST", "https://magical-starlight-de7eaf.netlify.app/server.php", true);
   xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
   xmlhttp.onreadystatechange = function() {
       if (this.readyState === 4 || this.status === 200){ 
