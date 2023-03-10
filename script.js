@@ -3,7 +3,7 @@ function FETCHDB() {
   var xmlhttp = new XMLHttpRequest();
 
   xmlhttp.open("POST", "https://magical-starlight-de7eaf.netlify.app/serverside.js", true);
-  xmlhttp.setRequestHeader("Access-Control-Allow-Origin", "*");
+  xmlhttp.setRequestHeader("Access-Control-Allow-Origin", "https://magical-starlight-de7eaf.netlify.app/");
 xmlhttp.setRequestHeader("Content-Type","application/json");
   xmlhttp.onreadystatechange = function () {
     if (this.readyState === 4 || this.status === 200) {
@@ -49,7 +49,7 @@ function WRITEDB(){
   console.log(payloadString);
   var xmlhttp = new XMLHttpRequest();
   xmlhttp.open("POST", "https://magical-starlight-de7eaf.netlify.app/serverside.js", true);
-  xmlhttp.setRequestHeader("Access-Control-Allow-Origin", "*");
+  xmlhttp.setRequestHeader("Access-Control-Allow-Origin", "https://magical-starlight-de7eaf.netlify.app/");
 xmlhttp.setRequestHeader("Content-Type","application/json");
   xmlhttp.onreadystatechange = function() {
       if (this.readyState === 4 || this.status === 200){ 
