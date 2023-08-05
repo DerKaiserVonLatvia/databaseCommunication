@@ -1,5 +1,4 @@
 <?php
-// (A) SETTINGS - CHANGE TO YOUR OWN !
 error_reporting(E_ALL & ~E_NOTICE);
 define("DB_HOST", "localhost");
 define("DB_NAME", "jauniesu_centrs");
@@ -7,7 +6,6 @@ define("DB_CHARSET", "utf8");
 define("DB_USER", "root");
 define("DB_PASSWORD", "password");
 
-// (B) CONNECT TO DATABASE
 
 $a=$_POST;
 
